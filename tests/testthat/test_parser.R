@@ -1,4 +1,4 @@
-context("Reading output of C++ simulation")
+# context("Reading output of C++ simulation")
 
 test_that("Parsing the C++ simulation output works", {
   run <- parseSimulationOutput(system.file("testdata", "test_simulation.test",
